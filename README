@@ -1,0 +1,4 @@
+1- terraform init
+2- terraform apply -auto-approve
+3- terraform output -raw ansible_inventory > inventory.ini
+4- ansible all -i inventory.ini -m
